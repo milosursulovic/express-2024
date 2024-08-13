@@ -1,10 +1,8 @@
-import express, { json } from "express";
-import dotenv from "dotenv";
+import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
 
-dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
